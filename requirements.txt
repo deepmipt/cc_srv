@@ -1,0 +1,3 @@
+nameko>=2.6.0
+--extra-index-url http://share.ipavlov.mipt.ru:8080/repository/deepmipt/simple --trusted-host share.ipavlov.mipt.ru
+nmt-chit-chat>=0.3.1

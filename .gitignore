@@ -1,0 +1,5 @@
+*.bin
+__pycache__/
+.idea/
+env.sh
+src/
