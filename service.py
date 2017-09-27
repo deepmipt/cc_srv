@@ -9,8 +9,13 @@ class ChitChat(object):
     a = Agent()
 
     @rpc
-    def predict(self, phrase=None):
+    def predict(self, phrase=None, session=0):
         with self.a['graph'].as_default():
             answer = self.a['agent'].send(phrase)
-            print(answer)
+            print("Session {}: {}".format(session, answer))
             return answer
+
+    @rpc
+    def init_session(self, session=0):
+        print("Session {} initialized".format(session))
+
