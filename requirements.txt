@@ -1,3 +1,3 @@
 nameko>=2.6.0
 --extra-index-url http://lnsigo.dc.phystech.edu:5050/ --trusted-host lnsigo.dc.phystech.edu
-nmt-chit-chat>=0.3.1
+nmt-chit-chat>=0.3.2
