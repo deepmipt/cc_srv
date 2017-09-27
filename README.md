@@ -1,5 +1,4 @@
-# p_srv
-ChitChat microservice
+# ChitChat microservice
 ```sh
 docker run --rm -d -h cc_srv.local                                  \
            --name cc_srv                                            \
